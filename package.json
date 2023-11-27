@@ -1,30 +1,28 @@
 {
-    "name": "strapi-provider-upload-cloudflare-r2",
-    "version": "1.0.2",
-    "description": "Cloudflare r2 provider for strapi upload",
-    "keywords": [
-      "upload",
-      "cloudflare",
-      "r2",
-      "strapi"
-    ],
-    "license": "SEE LICENSE IN LICENSE",
-    "author": {
-      "name": "Jeffrey Tung"
-    },
-    "main": "./lib",
-    "directories": {
-      "lib": "./lib"
-    },
-    "scripts": {
-      "test": "echo \"no tests yet\""
-    },
-    "dependencies": {
-      "aws-sdk": "2.892.0"
-    },
-    "engines": {
-      "node": ">=14.19.1 <=16.x.x",
-      "npm": ">=6.0.0"
-    }
+  "name": "@gotedo/strapi-provider-cloudflare-r2",
+  "version": "1.0.0",
+  "description": "Cloudflare R2 provider for Strapi Upload",
+  "keywords": [
+    "upload",
+    "cloudflare",
+    "r2",
+    "strapi"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Jeffrey Tung"
+  },
+  "main": "./src",
+  "directories": {
+    "src": "./src"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "aws-sdk": "2.892.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
   }
-  
+}
