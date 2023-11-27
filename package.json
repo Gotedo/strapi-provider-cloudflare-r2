@@ -1,6 +1,6 @@
 {
   "name": "@gotedo/strapi-provider-cloudflare-r2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cloudflare R2 provider for Strapi Upload",
   "keywords": [
     "upload",
