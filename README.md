@@ -9,12 +9,12 @@
 
 ```bash
 # using npm
-npm install strapi-provider-cloudflare-r2
+npm install @gotedo/strapi-provider-cloudflare-r2
 ```
 
 ```bash
 # using yarn
-yarn add strapi-provider-cloudflare-r2
+yarn add @gotedo/strapi-provider-cloudflare-r2
 ```
 
 ## Configuration
