@@ -1,6 +1,6 @@
 {
   "name": "@gotedo/strapi-provider-cloudflare-r2",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "Cloudflare R2 provider for Strapi Upload",
   "keywords": [
     "upload",
@@ -8,6 +8,10 @@
     "r2",
     "strapi"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gotedo/strapi-provider-cloudflare-r2.git"
+  },
   "license": "MIT",
   "author": {
     "name": "Jeffrey Tung"
@@ -17,12 +21,29 @@
     "src": "./src"
   },
   "scripts": {
-    "test": "echo \"no tests yet\""
+    "release": "np"
   },
   "dependencies": {
     "aws-sdk": "2.892.0"
   },
   "engines": {
     "node": ">= 10.0.0"
+  },
+  "devDependencies": {
+    "np": "^9.0.0"
+  },
+  "np": {
+    "yarn": false,
+    "yolo": true,
+    "contents": ".",
+    "anyBranch": false,
+    "publish": true,
+    "branch": "main",
+    "releaseDraft": true,
+    "message": "chore: bump version to %s 🚀"
+  },
+  "volta": {
+    "node": "20.10.0",
+    "yarn": "1.22.21"
   }
 }
